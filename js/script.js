@@ -3,30 +3,16 @@
 
 console.log('ciaooo')
 
-// const kmDaPercorrere = parseInt(prompt('Quanti km vuoi percorrere?'));
-// const etaPasseggero = parseInt(prompt('Quanti anni ha il passeggero?'));
+let kmDaPercorrere = parseFloat(document.getElementById ('km-percorrere'));
+let etaPasseggero = parseInt(document.getElementById ('eta-passeggero'));
+let buttonElement = document.querySelector ('button');
 
-const kmDaPercorrere = 20;
-const etaPasseggero = 30;
+console.log(kmDaPercorrere);
 
 let prezzoViaggio = kmDaPercorrere * 0.1976;
 
-console.log(prezzoViaggio)
+console.log(prezzoViaggio);
 
-// if (etaPasseggero < 18) {
-//     const sconto = prezzoViaggio * 20 / 100;
-//     // prezzoViaggio = prezzoViaggio - sconto;
-//     prezzoViaggio -= sconto;
-//     console.log(sconto,prezzoViaggio);
-// } else if (etaPasseggero > 65) {
-//     const sconto = prezzoViaggio * 40 / 100;
-//     prezzoViaggio -= sconto;
-//     console.log(sconto,prezzoViaggio)
-// } else {
-//     console.log(prezzoViaggio)
-// }
-
-// prezzoViaggio = prezzoViaggio.toFixed(2)
-// console.log(prezzoViaggio)
-
-// document.getElementById('prezzo-biglietto').innerHTML = prezzoViaggio
+buttonElement.addEventListener('click', function() {
+    console.log('invio per il calcolo prezzo');
+})
