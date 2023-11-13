@@ -32,5 +32,5 @@ buttonElement.addEventListener('click', function() {
     console.log('prezzo finale viaggio');
     prezzoViaggio = prezzoViaggio.toFixed(2);
     console.log(prezzoViaggio);
-
+    alert(prezzoViaggio)
 })
