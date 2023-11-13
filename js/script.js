@@ -13,6 +13,8 @@ let prezzoViaggio = kmDaPercorrere * 0.1976;
 
 console.log(prezzoViaggio);
 
+console.log(prezzoViaggio)
+
 buttonElement.addEventListener('click', function() {
     console.log('invio per il calcolo prezzo');
 })
